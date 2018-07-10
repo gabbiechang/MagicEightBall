@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		451C600020EADC7900BD2BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C5FFF20EADC7900BD2BA4 /* AppDelegate.swift */; };
 		451C600220EADC7900BD2BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C600120EADC7900BD2BA4 /* ViewController.swift */; };
 		451C600520EADC7900BD2BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451C600320EADC7900BD2BA4 /* Main.storyboard */; };
 		451C600720EADC7C00BD2BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451C600620EADC7C00BD2BA4 /* Assets.xcassets */; };
 		451C600A20EADC7C00BD2BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451C600820EADC7C00BD2BA4 /* LaunchScreen.storyboard */; };
+		451C601120EADF1100BD2BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451C5FFF20EADC7900BD2BA4 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451C601120EADF1100BD2BA4 /* AppDelegate.swift in Sources */,
 				451C600220EADC7900BD2BA4 /* ViewController.swift in Sources */,
-				451C600020EADC7900BD2BA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZVPSJW3YD;
 				INFOPLIST_FILE = MagicEightBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ZVPSJW3YD;
 				INFOPLIST_FILE = MagicEightBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
